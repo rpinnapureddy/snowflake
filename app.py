@@ -30,7 +30,7 @@ def insert_json_to_snowflake(id_value, json_payload,createdate,topic):
         cs.close()
         conn.close()
 
-@app.route("/")
+@app.route("/hello")
 def home():
     return "hello"
 
